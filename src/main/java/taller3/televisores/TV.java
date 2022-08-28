@@ -68,22 +68,22 @@ public class TV {
 		return estado;
 	}
 	public void canalUp() {
-		if(1<canal & canal<120 & estado == true ) {
+		if(1<canal && canal<120 && estado == true ) {
 			canal++;
 		}
 	}
 	public void canalDown() {
-		if(1<canal & canal<120 & estado == true ) {
+		if(1<canal && canal<120 && estado == true ) {
 			canal--;
 		}
 	}
 	public void volumenUp() {
-		if(0<volumen & volumen<7 & estado == true ) {
+		if(0<volumen && volumen<7 && estado == true ) {
 			volumen++;
 		}
 	}
 	public void volumenDown() {
-		if(0<volumen & volumen<7 & estado == true ) {
+		if(0<volumen && volumen<7 && estado == true ) {
 			volumen--;
 		}
 	}
