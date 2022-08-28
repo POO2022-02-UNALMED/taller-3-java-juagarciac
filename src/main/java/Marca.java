@@ -2,10 +2,10 @@ package test;
 
 public class Marca {
 	private String nombre;
-	public class(String nom){
+	public Marca (String nom){
 		this.nombre = nom;
 	}
-	public string getNombre() {
+	public String getNombre() {
 		return nombre;
 	}
 	 public void setNombre(String nombre) {
