@@ -1,4 +1,4 @@
-package test;
+package televisores;
 
 public class TV {
 	private Marca marca;
